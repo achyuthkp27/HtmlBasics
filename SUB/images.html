@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+    <style>
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            margin: 0 auto;
+            width: 300px;
+            position: relative;
+            left: 300px;
+        }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 300px;
+            margin: 0 auto;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            margin: 0 auto;
+            text-align: center;
+        }
+    </style>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <center><h1>Images</h1></br></center>
+    <div class="container">
+        
+        <p>The img element is an
+            inline element that specifies an image that is to appear in
+            a document. This element never has content, so it includes a slash in its opening
+            tag and has no closing tag. In its simplest form, the image element includes two
+            attributes: src, which specifies the file containing the image; and alt, which
+            specifies text to be displayed when it is not possible to display the image. If the
+            file is in the same directory as the HTML file of the document, the value of src
+            is just the image’s file name. In many cases, image files are stored in a subdirectory
+            of the directory where the HTML files are stored. For example, the image files
+            might be stored in a subdirectory named images. If the image file’s name is
+            stars.jpg and the image file is stored in the images subdirectory, the value of
+            src would be as follows:
+            "images/stars.jpg"</p></div></br>
+    </div>
+
+    <div class="gallery">
+        <a target="_blank" href="img_5terre.jpg">
+            <img src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+    </div>
+
+    <div class="gallery">
+        <a target="_blank" href="img_forest.jpg">
+            <img src="img_forest.jpg" alt="Forest" width="600" height="400">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+    </div>
+
+    <div class="gallery">
+        <a target="_blank" href="img_lights.jpg">
+            <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+    </div>
+
+    <div class="gallery">
+        <a target="_blank" href="img_mountains.jpg">
+            <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+    </div>
+
+</body>
+
+</html>

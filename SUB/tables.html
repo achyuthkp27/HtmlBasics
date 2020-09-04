@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table n Form</title>
+</head>
+
+<body>
+    <u>
+        <center>
+            <h1>Table</h1>
+            </br>
+    </u>
+
+    <table>
+        <caption> Fruit Juice Drinks </caption>
+        <tr>
+            <th> </th>
+            <th> Apple </th>
+            <th> Orange </th>
+            <th> Screwdriver </th>
+        </tr>
+        <tr>
+            <th> Breakfast </th>
+            <td> 0 </td>
+            <td> 1 </td>
+            <td> 0 </td>
+        </tr>
+        <tr>
+            <th> Lunch </th>
+            <td> 1 </td>
+            <td> 0 </td>
+            <td> 0 </td>
+        </tr>
+        <tr>
+            <th> Dinner </th>
+            <td> 0 </td>
+            <td> 0 </td>
+            <td> 1 </td>
+        </tr>
+    </table>
+    </center>
+
+    <u>
+        <center>
+            <h1>Forms</h1>
+            </br>
+    </u>
+    <form>
+        <p>
+            With size = 1 (the default)
+            <select name="groceries">
+                <option> milk </option>
+                <option> bread </option>
+                <option> eggs </option>
+                <option> cheese </option>
+            </select>
+        </p>
+        </br><textarea name="aspirations" rows="3" cols="40">
+        (Be brief and concise)
+        </textarea></br>
+        <p>Age
+            <label><input type="radio" name="age" value="under20" checked="checked" />
+                0-19 </label>
+            <label><input type="radio" name="age" value="20-35" /> 20-35 </label>
+            <label><input type="radio" name="age" value="36-50" /> 36-50 </label>
+            <label><input type="radio" name="age" value="over50" /> Over 50 </label>
+        </p>
+        <label for="uname"><b>Username</b></label></br></br>
+        <input type="text" placeholder="Enter Username" name="uname" required></br></br>
+        <label for="psw"><b>Password</b></label></br></br>
+        <input type="password" placeholder="Enter Password" name="psw" required></br></br>
+        <button type="submit">Login</button></br></br>
+        <label></br>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label></br>
+<h1>payment Form</h1>
+<p>
+    <!–– Text boxes for name and address ––>
+    <label> Buyer's Name:
+    <input type = "text" name = "name"
+    size = "30" /> </label>
+    <br />
+    <label> Street Address:
+    <input type = "text" name = "street"
+    size = "30" /> </label>
+    <br />
+    <label> City, State, Zip:
+    <input type = "text" name = "city"
+    size = "30" /> </label>
+    <p />
+    <!–– A table for item orders ––>
+    <table>
+    <!–– First, the column headings ––>
+    <tr>
+    <th> Product Name </th>
+    <th> Price </th>
+    <th> Quantity </th>
+    </tr>
+    <!–– Now, the table data entries ––>
+<tr>
+<td> Unpopped Popcorn (1 lb.) </td>
+<td> $3.00 </td>
+<td> <input type = "text" name = "unpop"
+size = "2" />
+</td>
+</tr>
+<tr>
+<td> Caramel Popcorn (2 lb. canister) </td>
+<td> $3.50 </td>
+<td> <input type = "text" name = "caramel"
+size = "2" />
+</td>
+</tr>
+<tr>
+<td> Caramel Nut Popcorn (2 lb. canister) </td>
+<td> $4.50 </td>
+<td> <input type = "text" name = "caramelnut"
+size = "2" />
+</td>
+</tr>
+<tr>
+<td> Toffey Nut Popcorn (2 lb. canister) </td>
+<td> $5.00 </td>
+<td> <input type = "text" name = "toffeynut"
+size = "2" />
+</td>
+</tr>
+</table>
+<p />
+<!–– The radio buttons for the payment method ––>
+<h3> Payment Method: </h3>
+<p>
+<label> <input type = "radio" name = "payment"
+value = "visa" checked = "checked" />
+Visa
+</label>
+<br />
+<label> <input type = "radio" name = "payment"
+value = "mc" /> Master Card
+</label>
+<br />
+<label> <input type = "radio" name = "payment"
+value = "discover" /> Discover
+</label>
+<br />
+<label> <input type = "radio" name = "payment"
+value = "check" /> Check
+</label>
+<br />
+</p>
+<!–– The submit and reset buttons ––>
+<p>
+<input type = "submit" value = "Submit Order" />
+<input type = "reset" value = "Clear Order Form" />
+</p>
+    </form>
+    </center>
+</body>
+
+</html>

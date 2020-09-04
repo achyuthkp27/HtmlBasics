@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Differences</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <u>
+        <center>
+            <h1>Differences between HTML and XHTML</h1>
+        </center></br></br></br>
+    </u>
+    <p class="container1">The discussion that follows points out some significant differences between the</br>
+        syntactic rules of HTML (or lack thereof) and those of XHTML.</br>
+        Case sensitivity. In HTML, tag and attribute names are case insensitive, meaning</br>
+        that FORM, form, and Form are equivalent. In XHTML, tag and attribute</br>
+        names must be all lowercase.</br>
+        Closing tags. In HTML, closing tags may be omitted if the processing agent</br>
+        (usually a browser) can infer their presence. For example, in HTML, paragraph</br>
+        elements often do not have closing tags. The appearance of another opening</br>
+        paragraph tag is used to infer the closing tag on the previous paragraph. Thus,</br>
+        in HTML we could have</br>
+        &lt;p></br>
+        During Spring, flowers are born. ...</br>
+        &lt;p></br>
+        During Fall, flowers die. ...</br>
+        In XHTML, all elements must have closing tags. For elements that do not include</br>
+        content, in which the closing tag appears to serve no purpose, a slash can be</br>
+        included at the end of the opening tag as an abbreviation for the closing tag. For</br>
+        example, the following two lines are equivalent in XHTML:</br>
+        &lt;input type = "text" name = "address" > &lt;/input></br>
+        and</br>
+        &lt;input type = "text" name = "address" /></br>
+        Recall that some browsers can become confused if the slash at the end is not</br>
+        preceded by a space.</br>
+        Quoted attribute values. In HTML, attribute values must be quoted only if</br>
+        there are embedded special characters or white-space characters. Numeric attribute</br>
+        values are rarely quoted in HTML. In XHTML, all attribute values must be</br>
+        double quoted, regardless of what characters are included in the value.</br>
+        Explicit attribute values. In HTML, some attribute values are implicit; that is,</br>
+        they need not be explicitly stated. For example, if the multiple attribute appears</br>
+        in a select tag without a value, it specifies that multiple items can be selected. The</br>
+        following is valid in HTML:</br>
+        &lt;select multiple></br>
+        This select tag is invalid in XHTML, in which such an attribute must be assigned a</br>
+        string of the name of the attribute. For example, the following is valid in XHTML:</br>
+        &lt;select multiple = "multiple"></p>
+</body>
+
+</html>
